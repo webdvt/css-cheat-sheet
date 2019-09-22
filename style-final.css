@@ -1,0 +1,143 @@
+body {
+   background: #f4f4f4;
+   color: #555555;
+   font-family: Arial, serif;
+   font-size: 16px;
+   font-weight: normal;
+   /*font: normal 16px Arial, serif;*/
+
+   /*What is "em"?
+
+   In CSS, an "em" unit is equal
+   to the font-size for
+   the element to which the em is applied...
+   If no font size is defined anywhere in the CSS,
+   the em unit will be equal to the browser's
+   default font size for the document, which is usually 16px.
+
+
+    */
+   line-height: 1.6em;
+   margin: 0;
+}
+
+.box-1 {
+   background-color: #333333;
+   color: #fff;
+
+   /*border-width: 3px;*/
+   /*border-color: red;*/
+   /*border-style: solid;*/
+   border: 5px solid red;
+   /*padding-top: 20px;*/
+   padding: 20px;
+   /* top and bottom: 20px*/
+   margin: 20px 0;
+}
+
+.container {
+   /*width: 960px;*/
+   width: 80%;
+   margin: auto;
+}
+
+.box-1 h1 {
+   font-family: Tahoma, serif;
+   font-weight: 800;
+   font-style: italic;
+   text-decoration: underline;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+}
+
+.box-2 {
+   border: 3px dotted #ccc;
+   padding: 20px;
+   margin: 20px 0;
+}
+
+.categories {
+   border: 1px #ccc solid;
+   padding: 10px;
+   border-radius: 15px;
+}
+
+.categories h2 {
+   text-align: center;
+}
+
+.categories ul {
+   padding: 0;
+   /*list-style: square;*/
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   color: red;
+}
+
+.categories li {
+   padding-bottom: 6px;
+   border-bottom: dotted 1px #333;
+}
+
+.my-form {
+   padding: 20px;
+}
+
+.my-form .form-group {
+   padding-bottom: 15px;
+}
+
+.my-form label {
+   display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+   padding: 8px;
+   width: 100%; /* 100% of its container */
+}
+
+.button {
+   background-color: #333;
+   color: #fff;
+   padding: 10px 15px;
+   border: none;
+}
+
+.button:hover {
+   cursor: pointer;
+}
+
+#showcase {
+   background-image: url('https://www.fujifilm.com/products/digital_cameras/x/fujifilm_x_t3/sample_images/img/index/ff_x_t3_002.JPG');
+   background-position: center right;
+   /*height: 400px;*/
+   min-height: 400px;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+#showcase h1 {
+   color: #fff;
+   font-size: 50px;
+   line-height: 1.6em;
+   padding-top: 80px;
+}
+
+.block {
+   float: left;
+   width: 33.3%;
+   border: 1px solid #ccc;
+   padding: 10px;
+   /* Takes the padding and border-width and apply them to the width*/
+   box-sizing: border-box;
+}
+
+
+
+
